@@ -11,8 +11,10 @@ function generateJoke() {
    fetch('https://icanhazdadjoke.com', config)
      .then((res) => res.json())
      .then((data) => {
-       console.log(data);
+       jokeEl.textContent = data.joke;
      });
  }
 
 generateJoke();
+
+jokeBtn.addEventListener('click', generateJoke);
