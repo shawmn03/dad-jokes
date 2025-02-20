@@ -34,10 +34,10 @@ h3 {
 }
 
 .joke {
-  font-size: 45px;
-  letter-spacing: 3px;
-  line-height: 80px;
-  margin: 30px auto;
+  font-size: 40px;
+  letter-spacing: 1px;
+  line-height: 50px;
+  margin: 50px auto;
   max-width: 600px;
 }
 
