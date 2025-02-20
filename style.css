@@ -35,8 +35,8 @@ h3 {
 
 .joke {
   font-size: 60px;
-  letter-spacing: 1px;
-  line-height: 40px;
+  letter-spacing: 3px;
+  line-height: 70px;
   margin: 50px auto;
   max-width: 600px;
 }
